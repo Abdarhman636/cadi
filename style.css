@@ -1,0 +1,67 @@
+@font-face {
+     font-family: Valky;
+     src: url(./assets/Valky.otf);
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+     box-sizing: border-box;
+     margin: 0;
+   }
+
+   body, h1, h2, h3, h4, h5, h6, p, ul, li {
+        padding: 0;
+        margin: 0;
+   }
+
+   ol, ul {
+	list-style: none;
+}
+
+body {
+     background-image: url(./assets/background.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+
+h1 {
+     font-family: Valky, Arial, sans-serif;
+     color: #9B6A4C;
+     margin-bottom: 70px;
+     font-size: 60px;
+     padding: 0 15px;
+}
+
+img {
+     padding: 0 15px;
+     
+}
+
+div {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 25px;
+}
+
+.social {
+     display: flex;
+     flex-direction: row;
+     gap: 25px;
+}
+
+.social i {
+     font-size: 25px;
+     background-color: #9B6A4C;
+     padding: 10px 15px;
+     border-radius: 50%;
+     color: #DADADA;
+ }
